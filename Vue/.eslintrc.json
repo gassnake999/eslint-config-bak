@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true,
+    "jasmine": true,
+    "jest": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "extends": ["plugin:prettier/recommended"],
+  "rules": {
+    "comma-dangle": [2, "never"],
+    "no-var": 1,
+    "camelcase": "off",
+    "no-extra-boolean-cast": "off",
+    "semi": ["error", "never"]
+  }
+}
